@@ -11,7 +11,7 @@
 ## Usage
 1. Clone to local
 ```bash
-git clone https://github.com/cijiugechu/vite-vitest-react-starter
+git clone https://github.com/cijiugechu/vite-vitest-react-starter.git
 ```
 2. Install dependencies
 ```bash
