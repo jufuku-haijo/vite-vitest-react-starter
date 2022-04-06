@@ -22,3 +22,9 @@ pnpm install
 ```bash
 pnpm run dev
 ```
+4. documentation management
+```bash
+# just navigate to :
+http://localhost:3000/__vite_plugin_book__/
+# and you will see the miracle
+```
