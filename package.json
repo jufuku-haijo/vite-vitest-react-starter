@@ -42,6 +42,6 @@
     "vite": "^2.9.1",
     "vite-plugin-book": "^0.0.8",
     "vite-plugin-svgr": "^1.1.0",
-    "vitest": "^0.8.0"
+    "vitest": "0.9.0"
   }
 }
