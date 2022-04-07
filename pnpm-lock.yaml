@@ -22,7 +22,7 @@ specifiers:
   vite: ^2.9.1
   vite-plugin-book: ^0.0.8
   vite-plugin-svgr: ^1.1.0
-  vitest: ^0.8.0
+  vitest: ^0.9.0
 
 dependencies:
   react: registry.npmmirror.com/react/17.0.2
@@ -48,7 +48,7 @@ devDependencies:
   vite: registry.npmmirror.com/vite/2.9.1_sass@1.49.9
   vite-plugin-book: registry.npmmirror.com/vite-plugin-book/0.0.8
   vite-plugin-svgr: registry.npmmirror.com/vite-plugin-svgr/1.1.0_vite@2.9.1
-  vitest: registry.npmmirror.com/vitest/0.8.0_jsdom@19.0.0+sass@1.49.9
+  vitest: registry.npmmirror.com/vitest/0.9.0_jsdom@19.0.0+sass@1.49.9
 
 packages:
 
@@ -4008,10 +4008,10 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: true
 
-  registry.npmmirror.com/tinyspy/0.3.0:
-    resolution: {integrity: sha512-c5uFHqtUp74R2DJE3/Efg0mH5xicmgziaQXMm/LvuuZn3RdpADH32aEGDRyCzObXT1DNfwDMqRQ/Drh1MlO12g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tinyspy/-/tinyspy-0.3.0.tgz}
+  registry.npmmirror.com/tinyspy/0.3.1:
+    resolution: {integrity: sha512-XXD1NYn5HciffxgxlHmOzq45tTNKRtPHss5go1ZAQmX9LLBIszXLG+NEpnD0shS2F2OMcQ9VSk7IswEeViCrbw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tinyspy/-/tinyspy-0.3.1.tgz}
     name: tinyspy
-    version: 0.3.0
+    version: 0.3.1
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -4232,12 +4232,12 @@ packages:
       fsevents: registry.npmmirror.com/fsevents/2.3.2
     dev: true
 
-  registry.npmmirror.com/vitest/0.8.0_jsdom@19.0.0+sass@1.49.9:
-    resolution: {integrity: sha512-8m8OufAQWXlNpjm5dTe5Lc60zruguKJljunveueYrd4aoeXaQvggLX0SPmIW3G6PDtnBdNEynSi+6pibjnutQA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vitest/-/vitest-0.8.0.tgz}
-    id: registry.npmmirror.com/vitest/0.8.0
+  registry.npmmirror.com/vitest/0.9.0_jsdom@19.0.0+sass@1.49.9:
+    resolution: {integrity: sha512-WyNY35WGRqtW/hd00FPgsnatDxKrRzEWVLS36KPbSFqAOn3HHtV+4/ihiPBaDAzAKtr6/eT52x+7kobUXa59TA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vitest/-/vitest-0.9.0.tgz}
+    id: registry.npmmirror.com/vitest/0.9.0
     name: vitest
-    version: 0.8.0
-    engines: {node: '>=v14.19.1'}
+    version: 0.9.0
+    engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
       '@vitest/ui': '*'
@@ -4260,7 +4260,7 @@ packages:
       jsdom: registry.npmmirror.com/jsdom/19.0.0
       local-pkg: registry.npmmirror.com/local-pkg/0.4.1
       tinypool: registry.npmmirror.com/tinypool/0.1.2
-      tinyspy: registry.npmmirror.com/tinyspy/0.3.0
+      tinyspy: registry.npmmirror.com/tinyspy/0.3.1
       vite: registry.npmmirror.com/vite/2.9.1_sass@1.49.9
     transitivePeerDependencies:
       - less
