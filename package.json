@@ -37,7 +37,7 @@
     "husky": "^7.0.4",
     "jsdom": "^19.0.0",
     "lint-staged": "^12.3.7",
-    "sass": "^1.50.0",
+    "sass": "^1.50.1",
     "typescript": "^4.6.3",
     "vite": "^2.9.4",
     "vite-plugin-book": "^0.0.8",
