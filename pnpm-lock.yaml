@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@testing-library/dom': ^8.13.0
   '@testing-library/jest-dom': ^5.16.4
-  '@testing-library/react': ^13.1.1
+  '@testing-library/react': ^13.2.0
   '@testing-library/user-event': ^14.1.1
   '@types/react': ^18.0.8
   '@types/react-dom': ^18.0.3
@@ -19,10 +19,10 @@ specifiers:
   react-dom: ^18.1.0
   sass: ^1.51.0
   typescript: ^4.6.4
-  vite: ^2.9.7
+  vite: ^2.9.8
   vite-plugin-book: ^0.0.8
   vite-plugin-svgr: ^2.1.0
-  vitest: ^0.10.2
+  vitest: ^0.10.5
 
 dependencies:
   react: 18.1.0
@@ -31,7 +31,7 @@ dependencies:
 devDependencies:
   '@testing-library/dom': 8.13.0
   '@testing-library/jest-dom': 5.16.4
-  '@testing-library/react': 13.1.1_react-dom@18.1.0+react@18.1.0
+  '@testing-library/react': 13.2.0_react-dom@18.1.0+react@18.1.0
   '@testing-library/user-event': 14.1.1_@testing-library+dom@8.13.0
   '@types/react': 18.0.8
   '@types/react-dom': 18.0.3
@@ -45,10 +45,10 @@ devDependencies:
   lint-staged: 12.4.1
   sass: 1.51.0
   typescript: 4.6.4
-  vite: 2.9.7_sass@1.51.0
+  vite: 2.9.8_sass@1.51.0
   vite-plugin-book: 0.0.8
-  vite-plugin-svgr: 2.1.0_vite@2.9.7
-  vitest: 0.10.2_jsdom@19.0.0+sass@1.51.0
+  vite-plugin-svgr: 2.1.0_vite@2.9.8
+  vitest: 0.10.5_jsdom@19.0.0+sass@1.51.0
 
 packages:
 
@@ -585,8 +585,8 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react/13.1.1_react-dom@18.1.0+react@18.1.0:
-    resolution: {integrity: sha512-8mirlAa0OKaUvnqnZF6MdAh2tReYA2KtWVw1PKvaF5EcCZqgK5pl8iF+3uW90JdG5Ua2c2c2E2wtLdaug3dsVg==}
+  /@testing-library/react/13.2.0_react-dom@18.1.0+react@18.1.0:
+    resolution: {integrity: sha512-Bprbz/SZVONCJy5f7hcihNCv313IJXdYiv0nSJklIs1SQCIHHNlnGNkosSXnGZTmesyGIcBGNppYhXcc11pb7g==}
     engines: {node: '>=12'}
     peerDependencies:
       react: ^18.0.0
@@ -3309,19 +3309,19 @@ packages:
       - utf-8-validate
     dev: true
 
-  /vite-plugin-svgr/2.1.0_vite@2.9.7:
+  /vite-plugin-svgr/2.1.0_vite@2.9.8:
     resolution: {integrity: sha512-3J19p8pmGfRt297yvc8Fd36+0AC0sLgA/gZYQDjotNAhv3CmSTQyviXIrDbwiRFVrsZjSlHJH1vca7OGFmjDcA==}
     peerDependencies:
       vite: ^2.6.0
     dependencies:
       '@svgr/core': 6.2.1
-      vite: 2.9.7_sass@1.51.0
+      vite: 2.9.8_sass@1.51.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.9.7_sass@1.51.0:
-    resolution: {integrity: sha512-5hH7aNQe8rJiTTqCtPNX/6mIKlGw+1wg8UXwAxDIIN8XaSR+Zx3GT2zSu7QKa1vIaBqfUODGh3vpwY8r0AW/jw==}
+  /vite/2.9.8_sass@1.51.0:
+    resolution: {integrity: sha512-zsBGwn5UT3YS0NLSJ7hnR54+vUKfgzMUh/Z9CxF1YKEBVIe213+63jrFLmZphgGI5zXwQCSmqIdbPuE8NJywPw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -3345,8 +3345,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.10.2_jsdom@19.0.0+sass@1.51.0:
-    resolution: {integrity: sha512-41D+nhswCco5vy1NXmpAjZX11Aj+HMnyhjWQD12piwHibf4bvdTGtni56UcFWcvONVoIForgDuLrKSohHJjwQA==}
+  /vitest/0.10.5_jsdom@19.0.0+sass@1.51.0:
+    resolution: {integrity: sha512-4qXdNbHwAd9YcsztJoVMWUQGcMATVlY9Xd95I3KQ2JJwDLTL97f/jgfGRotqptvNxdlmme5TBY0Gv+l6+JSYvA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -3371,7 +3371,7 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.1.3
       tinyspy: 0.3.2
-      vite: 2.9.7_sass@1.51.0
+      vite: 2.9.8_sass@1.51.0
     transitivePeerDependencies:
       - less
       - sass
