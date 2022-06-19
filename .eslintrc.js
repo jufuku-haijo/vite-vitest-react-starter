@@ -1,7 +1,8 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "node": true
     },
     "extends": [
         "eslint:recommended",
@@ -18,7 +19,8 @@ module.exports = {
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "no-cstyle-for-loop"
     ],
     "rules": {
         "@typescript-eslint/no-explicit-any": "off",
@@ -28,6 +30,7 @@ module.exports = {
         "@typescript-eslint/no-extra-semi": "warn",
         "@typescript-eslint/ban-ts-comment": "off",
         "@typescript-eslint/no-inferrable-types": "off",
+        "no-cstyle-for-loop/noForLoop": "error",
         "react/react-in-jsx-scope": "off",
         "react/prop-types": "off",
         "react/display-name": "off",

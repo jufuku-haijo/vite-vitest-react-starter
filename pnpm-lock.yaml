@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@testing-library/dom': ^8.13.0
@@ -12,6 +12,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.28.0
   '@vitejs/plugin-react': ^1.3.2
   eslint: ^8.17.0
+  eslint-plugin-no-cstyle-for-loop: ^1.2.0
   eslint-plugin-react: ^7.30.0
   husky: ^8.0.1
   jsdom: ^19.0.0
@@ -32,15 +33,16 @@ dependencies:
 devDependencies:
   '@testing-library/dom': 8.13.0
   '@testing-library/jest-dom': 5.16.4
-  '@testing-library/react': 13.3.0_react-dom@18.1.0+react@18.1.0
-  '@testing-library/user-event': 14.2.0_@testing-library+dom@8.13.0
+  '@testing-library/react': 13.3.0_ef5jwxihqo6n7gxfmzogljlgcm
+  '@testing-library/user-event': 14.2.0_tlwynutqiyp5mns3woioasuxnq
   '@types/node': 17.0.31
   '@types/react': 18.0.12
   '@types/react-dom': 18.0.5
-  '@typescript-eslint/eslint-plugin': 5.28.0_fe28c36a09305ff6004282ca7beab41d
-  '@typescript-eslint/parser': 5.28.0_eslint@8.17.0+typescript@4.7.3
+  '@typescript-eslint/eslint-plugin': 5.28.0_7yumg2qjgbp7maccqlfhx2vudu
+  '@typescript-eslint/parser': 5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4
   '@vitejs/plugin-react': 1.3.2
   eslint: 8.17.0
+  eslint-plugin-no-cstyle-for-loop: 1.2.0
   eslint-plugin-react: 7.30.0_eslint@8.17.0
   husky: 8.0.1
   jsdom: 19.0.0
@@ -589,7 +591,7 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react/13.3.0_react-dom@18.1.0+react@18.1.0:
+  /@testing-library/react/13.3.0_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-DB79aA426+deFgGSjnf5grczDPiL4taK3hFaa+M5q7q20Kcve9eQottOG5kZ74KEr55v0tU2CQormSSDK87zYQ==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -603,7 +605,7 @@ packages:
       react-dom: 18.1.0_react@18.1.0
     dev: true
 
-  /@testing-library/user-event/14.2.0_@testing-library+dom@8.13.0:
+  /@testing-library/user-event/14.2.0_tlwynutqiyp5mns3woioasuxnq:
     resolution: {integrity: sha512-+hIlG4nJS6ivZrKnOP7OGsDu9Fxmryj9vCl8x0ZINtTJcCHs2zLsYif5GzuRiBF2ck5GZG2aQr7Msg+EHlnYVQ==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -682,7 +684,7 @@ packages:
       '@types/jest': 27.5.0
     dev: true
 
-  /@typescript-eslint/eslint-plugin/5.28.0_fe28c36a09305ff6004282ca7beab41d:
+  /@typescript-eslint/eslint-plugin/5.28.0_7yumg2qjgbp7maccqlfhx2vudu:
     resolution: {integrity: sha512-DXVU6Cg29H2M6EybqSg2A+x8DgO9TCUBRp4QEXQHJceLS7ogVDP0g3Lkg/SZCqcvkAP/RruuQqK0gdlkgmhSUA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -693,10 +695,10 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.28.0_eslint@8.17.0+typescript@4.7.3
+      '@typescript-eslint/parser': 5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4
       '@typescript-eslint/scope-manager': 5.28.0
-      '@typescript-eslint/type-utils': 5.28.0_eslint@8.17.0+typescript@4.7.3
-      '@typescript-eslint/utils': 5.28.0_eslint@8.17.0+typescript@4.7.3
+      '@typescript-eslint/type-utils': 5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4
+      '@typescript-eslint/utils': 5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4
       debug: 4.3.4
       eslint: 8.17.0
       functional-red-black-tree: 1.0.1
@@ -709,7 +711,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/parser/5.28.0_eslint@8.17.0+typescript@4.7.3:
+  /@typescript-eslint/parser/5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4:
     resolution: {integrity: sha512-ekqoNRNK1lAcKhZESN/PdpVsWbP9jtiNqzFWkp/yAUdZvJalw2heCYuqRmM5eUJSIYEkgq5sGOjq+ZqsLMjtRA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -737,7 +739,7 @@ packages:
       '@typescript-eslint/visitor-keys': 5.28.0
     dev: true
 
-  /@typescript-eslint/type-utils/5.28.0_eslint@8.17.0+typescript@4.7.3:
+  /@typescript-eslint/type-utils/5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4:
     resolution: {integrity: sha512-SyKjKh4CXPglueyC6ceAFytjYWMoPHMswPQae236zqe1YbhvCVQyIawesYywGiu98L9DwrxsBN69vGIVxJ4mQQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -747,7 +749,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 5.28.0_eslint@8.17.0+typescript@4.7.3
+      '@typescript-eslint/utils': 5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4
       debug: 4.3.4
       eslint: 8.17.0
       tsutils: 3.21.0_typescript@4.7.3
@@ -782,7 +784,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils/5.28.0_eslint@8.17.0+typescript@4.7.3:
+  /@typescript-eslint/utils/5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4:
     resolution: {integrity: sha512-E60N5L0fjv7iPJV3UGc4EC+A3Lcj4jle9zzR0gW7vXhflO7/J29kwiTGITA2RlrmPokKiZbBy2DgaclCaEUs6g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1629,6 +1631,10 @@ packages:
       optionator: 0.8.3
     optionalDependencies:
       source-map: 0.6.1
+    dev: true
+
+  /eslint-plugin-no-cstyle-for-loop/1.2.0:
+    resolution: {integrity: sha512-BAr9JXBOHc2n4gpDDHtlqE9mmMWUJGZnfOGVABw5sMSmAa/lAczNrTxsAK/tGYmsDNzPLhjOSSH7Wo2CLn4dkA==}
     dev: true
 
   /eslint-plugin-react/7.30.0_eslint@8.17.0:
