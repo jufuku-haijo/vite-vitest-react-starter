@@ -10,12 +10,7 @@ import { resolve } from 'path'
 export default defineConfig({
   plugins: [
     react(),
-    svgrPlugin({
-      svgrOptions: {
-        icon: true,
-        // ...svgr options (https://react-svgr.com/docs/options/)
-      },
-    }),
+    svgrPlugin(),
     book()
   ],
 
