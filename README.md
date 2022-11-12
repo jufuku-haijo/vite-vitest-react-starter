@@ -1,7 +1,7 @@
 # A vite-based react starter
 
 ## Features
-1. ⚡️ Vite2, pnpm, TypeScript by default
+1. ⚡️ Vite3, pnpm, TypeScript by default
 2. 😃 Svgr support, just like create-react-app does
 3. ⚙️ Vite-native testing support: vitest
 4. 📑 Documention managament superpowered by [vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book)
