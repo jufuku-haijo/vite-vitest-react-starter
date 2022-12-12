@@ -23,7 +23,6 @@ module.exports = {
         "no-cstyle-for-loop"
     ],
     "rules": {
-        "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
         "@typescript-eslint/no-empty-function": "off",
         "@typescript-eslint/no-empty-interface": "off",
@@ -34,7 +33,7 @@ module.exports = {
         "react/react-in-jsx-scope": "off",
         "react/prop-types": "off",
         "react/display-name": "off",
-        "prefer-const": "warn",
+        "prefer-const": "error",
     },
     "settings": {
         "react": {
