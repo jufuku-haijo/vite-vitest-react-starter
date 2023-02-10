@@ -1,3 +1,0 @@
-## vite-plugin-book demo
-
-Type here to construct your own docs...
